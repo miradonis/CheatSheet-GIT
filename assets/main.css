@@ -1,0 +1,62 @@
+@font-face {
+    font-family: Merriweather;
+    src: url("./fonts/Merriweather-Regular.ttf");
+}
+
+@font-face {
+    font-family: Roboto-Regular;
+    src: url("./fonts/Roboto-Regular.ttf");
+}
+
+/* ALLGEMEINE ANGABEN */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: rgb(246, 245, 247);
+    font-family: Roboto-regular;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+    padding: 60px;
+    background-color: rgba(55, 55, 55, 0.575);
+    border-bottom: 5px solid rgba(55, 55, 55, 0.888);
+}
+
+header h1 {
+    font-family: Merriweather;
+    font-size: 3.5em;
+    color: rgba(55, 55, 55, 0.946);
+}
+
+main section .important {
+    padding-top: 100px;
+    text-align: center;
+    font-size: 1.5em;
+    color: red;
+    text-decoration: underline;
+}
+
+main .commands {
+    width: 40vw;
+    margin: 60px auto 40px auto;
+    padding: 30px 30px 30px 30px;
+    background-color: rgba(209, 209, 209, 0.575);
+}
+
+main .commands p {
+    margin: 0 0 40px 40px;
+}
+
+main section span {
+    font-size: 1.5em;
+    margin-right: 50px;
+    text-decoration: underline;
+}
