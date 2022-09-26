@@ -30,7 +30,7 @@ header {
     text-align: center;
     padding: 60px;
     background-color: rgba(55, 55, 55, 0.575);
-    border-bottom: 5px solid rgba(55, 55, 55, 0.888);
+    border-bottom: 3px solid rgba(55, 55, 55, 0.888);
 }
 
 header h1 {
@@ -63,7 +63,7 @@ main .commands h2 {
 }
 
 main .commands p {
-    margin: 10px 0 40px 60px;
+    margin: 10px 50px 40px 100px;
 }
 
 main section article span {
@@ -72,3 +72,13 @@ main section article span {
     text-decoration: underline;
 }
 
+/*
+==========================STYLE FOOTER============================
+*/
+
+footer {
+    width: 100vw;
+    padding-top: 90px;
+    background-color: #878687;
+    border-top: 3px solid rgba(55, 55, 55, 0.888);
+}
