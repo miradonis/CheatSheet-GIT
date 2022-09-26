@@ -22,6 +22,9 @@ body {
     font-family: Roboto-regular;
 }
 
+/*
+==========================STYLE FOR HEADER===========================
+*/
 header {
     width: 100%;
     text-align: center;
@@ -36,27 +39,36 @@ header h1 {
     color: rgba(55, 55, 55, 0.946);
 }
 
-main section .important {
+main article .important {
     padding-top: 100px;
     text-align: center;
     font-size: 1.5em;
     color: red;
     text-decoration: underline;
 }
-
+/*
+==========================STYLE FOR COMMANDS============================
+*/
 main .commands {
     width: 40vw;
     margin: 60px auto 40px auto;
-    padding: 30px 30px 30px 30px;
-    background-color: rgba(209, 209, 209, 0.575);
+    background-color: rgba(226, 226, 226, 0.575);
+}
+
+main .commands h2 {
+    background-color: #878687;
+    margin: 0 0 40px 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
 }
 
 main .commands p {
-    margin: 0 0 40px 40px;
+    margin: 10px 0 40px 60px;
 }
 
-main section span {
-    font-size: 1.5em;
-    margin-right: 50px;
+main section article span {
+    font-size: 1.3em;
+    margin: 0 0 10px 40px;
     text-decoration: underline;
 }
+

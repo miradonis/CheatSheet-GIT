@@ -14,26 +14,62 @@
         <h1>CheatSheet - GIT</h1>
     </header>
     <main>
-        <section>
+        <article>
             <p class="important">
                 Repository in Github erstellen ---> Die 3 Zeilen nicht vergessen (WICHTIG !!!!)
             </p>
-        </section>
+        </article>
+        <!--
+            =================================COMMANDS===================================
+        -->
         <section class="commands">
-            <span>git init: </span>
-            <p>
-                Neues, lokales Repo erstellen
-            </p>
-            <span>git add: </span>
-            <p>
-                Alle lokalen Änderungen zum nächsten
-                Commit hinzufügen
-            </p>
-            <span>git commit -m: </span>
-            <p>
-                Zur Staging Area hinzugefügte
-                Änderungen committen
-            </p>
+            <!--------------------create local repo----------------------->
+            <article class="create_local_repo">
+                <h2>Repos erstellen</h2>
+                <span>git init: </span>
+                <p>
+                    Neues, lokales Repo erstellen
+                </p>
+            </article>
+            <!----------------------local changes------------------------->
+            <article>
+                <h2>Lokale Änderungen</h2>
+                <span>git add: </span>
+                <p>
+                    Alle lokalen Änderungen zum nächsten
+                    Commit hinzufügen
+                </p>
+                <span>git commit -m: </span>
+                <p>
+                    Zur Staging Area hinzugefügte
+                    Änderungen committen inklusive Infos zur vorgenommenen Veränderungen
+                </p>
+                <span>git status: </span>
+                <p>
+                    Änderungen anzeigen
+                </p>
+            </article>
+            <article>
+                <h2>Branches</h2>
+                <span>git checkout branchname: </span>
+                <p>
+                    Aktuellen HEAD-Branch wechseln
+                </p>
+                <span>git checkout -b branchname: </span>
+                <p>
+                    Erstellt einen neuen Branch und wechselt direkt zu diesem
+                </p>
+                <span>git checkout master: </span>
+                <p>
+                    Den Branch wechseln (hier zum Branch master)
+                </p>
+            </article>
+            <article>
+                <h2>Update und Publish</h2>
+            </article>
+            <article>
+                <h2>Merge</h2>
+            </article>
         </section>
     </main>
 
